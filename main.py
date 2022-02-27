@@ -22,7 +22,7 @@ while 1:
     file = open("nitro.txt","a",errors="ignore")
     a = time.time()
     while gen != amt:
-          nitro = "https://discord.gg/{}\n".format("".join(random.choices(cap+low+num,k=16)))
+          nitro = "https://discord.gift/{}\n".format("".join(random.choices(cap+low+num,k=16)))
           file.write(nitro)
           gen+=1
     b = time.time()
